@@ -23,4 +23,8 @@ num_char = len(input("Enter your name ? "));
 # can not concatenate the string + intger + string
 # string is only concatenated with the string 
 
+new_num_char = str(num_char)  # converted the integer to string
+
+print("Name is having " + new_num_char + " characters "); 
+
 print(type(num_char))
