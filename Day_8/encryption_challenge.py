@@ -69,3 +69,13 @@ elif direction == "decode":
 
 
 # caesar(start_text=text, shift_amount=shift, cipher_direction=direction)
+
+
+
+# ----------------------------->>> <<<-------------------------------------------
+
+# Optimization : 
+# If the shift amount entered in greater than the 26 than what 
+#  so , solution is shift = shift % 26 
+
+# 
