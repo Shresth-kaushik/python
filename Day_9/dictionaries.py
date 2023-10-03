@@ -27,3 +27,4 @@ print("\n")
 # loop through dictinory  -> Just give the key as output
 for i in programming_dictinory:
     print(i)
+    print(programming_dictinory[i])
