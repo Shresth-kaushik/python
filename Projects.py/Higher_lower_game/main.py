@@ -58,6 +58,7 @@ while game_continue:
     is_correct = check_guess(guess , account_a_followers=a_followers ,account_b_followers=b_followers)
 
     os.system('clear')
+    print(art_h_l.logo)
 
     # Score track and the feedback to the user :
     if is_correct:
